@@ -301,3 +301,23 @@ exports.zh = function() {
         ]
     }
 };
+
+
+// -------------------------------------------------------------
+
+exports.th = function() {
+    return {
+        parsers: [
+            new parser.THCasualDateParser()
+        ],
+        refiners: [
+
+        ]
+    }
+};
+
+exports.th.casual = function() {
+    var option = exports.th();
+
+    return option;
+};

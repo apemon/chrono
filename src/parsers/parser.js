@@ -111,3 +111,5 @@ exports.DETimeAgoFormatParser = require('./de/DETimeAgoFormatParser').Parser;
 exports.DETimeExpressionParser = require('./de/DETimeExpressionParser').Parser;
 exports.DEWeekdayParser = require('./de/DEWeekdayParser').Parser;
 exports.DECasualDateParser = require('./de/DECasualDateParser').Parser;
+
+exports.THCasualDateParser = require('./th/THCasualDateParser').Parser;
